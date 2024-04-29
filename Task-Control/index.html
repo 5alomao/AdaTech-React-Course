@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Task Control</title>
+  </head>
+  <body>
+    <header>
+      <h1>Task Control Project</h1>
+    </header>
+    <main>
+      <section>
+        <header>
+          <h3>Task Form</h3>
+        </header>
+        <form id="todo-form">
+          <label for="task-title-input">Task Title</label>
+          <input
+            name="task-title-input"
+            type="text"
+            placeholder="Inform your task"
+            id="task-title-input"
+          />
+          <button id="add-task-button">ADD</button>
+        </form>
+      </section>
+      <section class="task-list-section">
+        <header>
+          <h3>Task List</h3>
+        </header>
+        <ul id="todo-list"></ul>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
